@@ -1,0 +1,13 @@
+### Hugo ###
+# Generated files by hugo
+/public/
+/resources/_gen/
+hugo_stats.json
+
+### Terraform ###
+# Local .terraform directories
+**/.terraform/*
+
+# .tfstate files
+*.tfstate
+*.tfstate.*

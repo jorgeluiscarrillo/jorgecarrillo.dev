@@ -1,0 +1,47 @@
+baseurl      = "https://www.jorgecarrillo.dev"
+title        = "Jorge Carrillo"
+languageCode = "en-us"
+theme        = "hello-friend-ng"
+
+disableRSS   = true
+disableKinds = "RSS"
+
+[params]
+  homeSubtitle = "...is interested in DevOps♾️, Fitness💪, Linux🐧, and FOSS💚"
+
+  [params.logo]
+    logoMark           = "~/jcarrillo"
+    logoText           = "❯"
+    logoHomeLink       = "/"
+    logoCursorDisabled = true
+
+  [params.footer]
+    rss        = false
+    bottomText = [
+      "Built with <a href=\"https://github.com/gohugoio/hugo\">Hugo</a>",
+      "Source code available on <a href=\"https://github.com/jorgeluiscarrillo/jorgecarrillo.dev\">GitHub</a>"
+    ]
+
+  [[params.social]]
+    name = "github"
+    url  = "https://github.com/jorgeluiscarrillo/"
+
+  [[params.social]]
+    name = "linkedin"
+    url  = "https://www.linkedin.com/in/jorgeluiscarrillo/"
+
+[menu]
+  [[menu.main]]
+    identifier = "about"
+    name       = "About Me"
+    url        = "about/"
+
+  [[menu.main]]
+    identifier = "posts"
+    name       = "Notes"
+    url        = "notes/"
+
+[deployment]
+  [[deployment.targets]]
+    name = "s3-deploy"
+    URL  = "s3://www.jorgecarrillo.dev?region=us-west-1"
