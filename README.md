@@ -1,7 +1,7 @@
 # jorgecarrillo.dev
 
 [![Website](https://img.shields.io/website?down_color=lightgrey&down_message=offline&up_color=green&up_message=up&url=https%3A%2F%2Fwww.jorgecarrillo.dev)](https://www.jorgecarrillo.dev)
-![Hugo Deploy S3](https://github.com/jorgeluiscarrillo/jorgecarrillo.dev/workflows/Hugo%20Deploy%20S3/badge.svg)
+[![Hugo Deploy S3](https://github.com/jorgeluiscarrillo/jorgecarrillo.dev/workflows/Hugo%20Deploy%20S3/badge.svg)](https://github.com/jorgeluiscarrillo/jorgecarrillo.dev/actions)
 
 This is my personal website. My goal was to create a fast, secure site with automated builds and deployments to be able to manage the site through code and the CLI. Additionally, I wanted to achieve all of this while keeping hosting costs as low as possible.
 
