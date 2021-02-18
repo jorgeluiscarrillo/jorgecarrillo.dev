@@ -1,5 +1,7 @@
 # www.jorgecarrillo.dev
 
+![Hugo Deploy S3](https://github.com/jorgeluiscarrillo/jorgecarrillo.dev/workflows/Hugo%20Deploy%20S3/badge.svg)
+
 This is my personal website. My goal was to create a fast, secure site with automated builds and deployments to be able to manage the site through code and the CLI. Additionally, I wanted to achieve all of this while keeping hosting costs as low as possible.
 
 ### Infrastructure
