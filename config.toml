@@ -41,6 +41,9 @@ disableKinds = "RSS"
     name       = "Notes"
     url        = "notes/"
 
+[taxonomies]
+  tag = "tags"
+
 [deployment]
   [[deployment.targets]]
     name = "s3-deploy"
